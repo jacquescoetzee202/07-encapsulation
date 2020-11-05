@@ -34,4 +34,9 @@ class Book {
         $this->timesRead += 1;
     }
 
+    public function title()
+    {
+        return $this->title;
+    }
+
 }
